@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gradient-soft">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center pt-16">
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6 animate-fade-in">
             Faça sua Encomenda
           </h2>

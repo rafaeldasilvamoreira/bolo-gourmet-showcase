@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-gradient-soft">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto pt-16">
           <div className="animate-fade-in">
             <img
               src={brunoImage}
@@ -12,7 +12,7 @@ const About = () => {
               className="rounded-2xl shadow-soft w-full"
             />
           </div>
-          
+            
           <div className="animate-fade-in">
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-6">
               Sobre o Chef
