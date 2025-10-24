@@ -5,13 +5,13 @@
   "type": "module",
   "homepage": "https://rafaeldasilvamoreira.github.io/bolo-gourmet-showcase/",
   "scripts": {
-    "build:dev": "vite build --mode development",
-    "lint": "eslint .",
-    "preview": "vite preview",    
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "dev": "vite",
     "build": "vite build",
-    "dev": "vite"
+    "build:dev": "vite build --mode development",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "predeploy": "pnpm run build",
+    "deploy": "pnpm exec gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
