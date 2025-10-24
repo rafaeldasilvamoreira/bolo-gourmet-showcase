@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://rafaeldasilvamoreira.github.io/bolo-gourmet-showcase/",
   "scripts": {
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "homepage": "https://rafaeldasilvamoreira.github.io/bolo-gourmet-showcase/",
+    "preview": "vite preview",    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
